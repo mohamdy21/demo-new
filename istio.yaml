@@ -35,7 +35,7 @@ spec:
         - destination:
             host: demo-canary
           weight: 0
-          ---
+---
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
